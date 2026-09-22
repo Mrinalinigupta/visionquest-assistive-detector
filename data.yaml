@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['ally-caster-minion', 'ally-inhibitor', 'ally-melee-minion', 'ally-nexus', 'ally-siege-minion', 'ally-tower', 'enemy-caster-minion', 'enemy-inhibitor', 'enemy-melee-minion', 'enemy-nexus', 'enemy-siege-minion', 'enemy-tower']
+
+
+roboflow:
+  workspace: amrita-tfl3f
+  project: league-of-legends-objects-detector-5dwku
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/amrita-tfl3f/league-of-legends-objects-detector-5dwku/dataset/1
